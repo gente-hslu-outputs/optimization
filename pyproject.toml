@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "enduseroptimizer"
+version = "0.0.2"
+dependencies = [
+    "pandas",
+    "numpy",
+    "scipy",
+    "pulp",
+    "pyarrow", 
+]
+requires-python = ">=3.9"
+authors = [
+    {name = "Daniel Raimundo", email = "daniel.raimundo@hslu.ch"},
+]
+description = "Package to model endusers using different attributes, and optimize their flexible assets"
+readme = "README.md"
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "pylint",
+    "mypy",
+]
+test = [
+    "pytest",
+    "pytest-cov",
+    "deepdiff",
+]
+plot = [
+    "streamlit",
+    "plotly",
+]
+
+[tool.pytest.ini_options]
+pythonpath = "src"
