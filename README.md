@@ -18,8 +18,6 @@ Requires that you have a `.pypirc` File setup, and that you know:
 ```cmd
 pip install enduseroptimzer --index-url https://__token__:<your_personal_token>@gitlab.com/api/v4/projects/45647566/packages/pypi/simple
 ```
-
->[TOC]
 ## Purpose
 Provide a simple base for energy simulations of end-users, especially in the context of Local Energy Communities, Electrical Vehicle Fleets and Distribution Systems.
 
