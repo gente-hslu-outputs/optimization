@@ -19,13 +19,6 @@ Requires that you have a `.pypirc` File setup, and that you know:
 pip install enduseroptimzer --index-url https://__token__:<your_personal_token>@gitlab.com/api/v4/projects/45647566/packages/pypi/simple
 ```
 
-
-## Usage
-
-```python
-# TODO: Daniel
-```
-
 >[TOC]
 ## Purpose
 Provide a simple base for energy simulations of end-users, especially in the context of Local Energy Communities, Electrical Vehicle Fleets and Distribution Systems.
@@ -74,8 +67,3 @@ Each EndUser can be optimized by passing an `EndUser` instance to `optimize_endu
 # Start the Optimizer from CLI
 1. Go into Optimizer Folder 
 2. run `streamlit run .\endusermodel\examples\example_pydefine.py` from CMD
-3. ???
-4. Profit
-
-
-## Functionality description
